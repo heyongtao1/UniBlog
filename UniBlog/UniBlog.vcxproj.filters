@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="basewidget\LoadingDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="basewidget\animationstackedwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="blogfunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bloglogin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="blogtext\blogtext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="basewidget\customwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="event\globalapplocation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="basewidget\lockscreenwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="myapp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mysocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="basewidget\mywidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="basewidget\previewblogwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="basewidget\rotatingstackedwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="threadworker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="basewidget\LoadingDialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="basewidget\animationstackedwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="blogfunction.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="bloglogin.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="blogtext\blogtext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="basewidget\customwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="event\globalapplocation.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="basewidget\lockscreenwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="myapp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="mysocket.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="basewidget\mywidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="basewidget\previewblogwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="basewidget\rotatingstackedwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="threadworker.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="blogfunction.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="bloglogin.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="basewidget\lockscreenwidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="basewidget\previewblogwidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\image\comimage\?.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\image\comimage\?2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\image\comimage\?3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\image\comimage\?4.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\image\comimage\??.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\image\comimage\??1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\image\comimage\???.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\image\comimage\???02.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\image\comimage\????.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\image\ico\????.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\image\comimage\??????.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\image\ico\Mycpp.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\image\User\UserHead.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\image\comimage\_??.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\qss\blog.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\image\comimage\ic_close_white.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\image\comimage\ic_info.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\image\login\ic_lock.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\image\comimage\ic_min_white.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\image\comimage\ic_question.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\image\login\ic_user.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\image\comimage\ic_warning.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\image\login\loading.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\qss\login.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\image\loginWidget.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\qss\preview.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="resource.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+</Project>

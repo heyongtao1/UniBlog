@@ -1,0 +1,64 @@
+QWidget
+{
+    background-color:rgb(234, 234, 234);
+    border-radius:15px;
+}
+
+QWidget#LoginstackedWidget{
+    border-image: url(:/resources/image/login/background3.jpg);
+}
+QWidget#LoginSettingWidget{
+    border-image: url(:/resources/image/login/background2.jpg);
+}
+QGroupBox{
+    background-color: rgba(255, 255, 255, 30%);
+    border:1px solid;
+}
+QWidget#InputEventWidget{
+    background:transparent;
+    border - width:0;
+    border - style:outset;
+}
+QWidget#HeadWidget{
+    background:transparent;
+    border - width:0;
+    border - style:outset;
+}
+QPushButton#registerBt{
+    background-color: rgba(255, 255, 255, 0%);
+    border:none;
+    color:#e5e5e5;
+}
+QPushButton:hover
+{
+    /*背景颜色*/
+    background-color:rgb(44 , 137 , 255);
+}
+QPushButton:pressed
+{
+    /*背景颜色*/
+    background-color:rgb(14 , 135 , 228);
+    /*左内边距为3像素，让按下时字向右移动3像素*/
+    padding-left:3px;
+    /*上内边距为3像素，让按下时字向下移动3像素*/
+    padding-top:3px;
+}
+/*设置背景透明度，0%全透明*/
+QLineEdit{
+    background-color: rgba(255, 255, 255, 0%);
+    border-radius:5px;
+    border:1px solid;
+    border-top : none;
+    border-right : none;
+    border-left : none;
+}
+QLineEdit:hover{
+    /*背景颜色*/
+    border-bottom-color:rgb(44 , 137 , 255);
+    border-top : rgb(44 , 137 , 255);
+    border-right : rgb(44 , 137 , 255);
+    border-left : rgb(44 , 137 , 255);
+}
+QLabel{
+    background-color: rgba(255, 255, 255, 0%);
+}

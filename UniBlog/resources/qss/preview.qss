@@ -1,0 +1,43 @@
+QWidget
+{
+    background-color:rgb(234, 234, 234);
+    border-radius:15px;
+
+}
+
+QPushButton{
+    color:#000000;
+    background-color: rgba(255, 255, 255, 0%);
+    border-radius:5px;
+}
+QPushButton:hover
+{
+    /*背景颜色*/
+    /*background-color:rgb(44 , 137 , 255);*/
+}
+QPushButton:pressed
+{
+    /*背景颜色*/
+    background-color:rgb(14 , 135 , 228);
+    /*左内边距为3像素，让按下时字向右移动3像素*/
+    padding-left:3px;
+    /*上内边距为3像素，让按下时字向下移动3像素*/
+    padding-top:3px;
+}
+/*设置背景透明度，0%全透明*/
+QLineEdit{
+    background-color: rgba(255, 255, 255, 30%);
+    border:1px solid;
+}
+/*标签的背景透明度*/
+QLabel{
+    background-color: rgba(255, 255, 255, 0%);
+}
+/*标签的文本颜色*/
+QLabel#UsernameLable{
+    color:#ffffff;
+}
+QGroupBox{
+    background-color: rgb(22, 30, 25);
+}
+

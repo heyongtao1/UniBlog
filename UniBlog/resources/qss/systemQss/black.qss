@@ -1,0 +1,152 @@
+QWidget
+{
+    background-color:rgb(59, 59, 59);
+    border-radius:15px;
+}
+QWidget#FunBtMenuWidget{
+    background-color:rgb(59, 59, 59);
+    border-radius:15px;
+}
+QWidget#Headwidget{
+    background-color:rgb(59, 59, 59);
+}
+QListWidget#listWidget{
+    background-color:rgb(59, 59, 59);
+}
+QStackedWidget#AboutstackedWidget{
+    background-color:rgb(65, 65, 65);
+}
+QPushButton#AllCreateBlogBt,#NewCreateBlogBt,#SendMesgBt,#commendBlogBt,#findBlogTextBt,#selfChatBoxBt,#HelpOurBt,#quitBlogBt{
+    color:#ffffff;
+    background-color: rgba(255, 255, 255, 0%);
+    border-radius:10px;
+    border:1px solid;
+    border-top : none;
+    border-right : none;
+    border-left : none;
+    border-bottom-color:#ffffff;
+}
+/*靠近按钮样式*/
+QPushButton#AllCreateBlogBt:hover{
+    border-bottom-color:rgb(44 , 137 , 255);
+}
+/*按钮焦点（选中）样式*/
+QPushButton#AllCreateBlogBt:focus{
+    border-bottom-color:rgb(44 , 137 , 255);
+}
+QPushButton#NewCreateBlogBt:hover{
+    border-bottom-color:rgb(44 , 137 , 255);
+}
+QPushButton#NewCreateBlogBt:focus{
+    border-bottom-color:rgb(44 , 137 , 255);
+}
+QPushButton#SendMesgBt:hover{
+    border-bottom-color:rgb(44 , 137 , 255);
+}
+QPushButton#SendMesgBt:focus{
+    border-bottom-color:rgb(44 , 137 , 255);
+}
+QPushButton#commendBlogBt:hover{
+    border-bottom-color:rgb(44 , 137 , 255);
+}
+QPushButton#commendBlogBt:focus{
+    border-bottom-color:rgb(44 , 137 , 255);
+}
+QPushButton#findBlogTextBt:hover{
+    border-bottom-color:rgb(44 , 137 , 255);
+}
+QPushButton#findBlogTextBt:focus{
+    border-bottom-color:rgb(44 , 137 , 255);
+}
+QPushButton#selfChatBoxBt:hover{
+    border-bottom-color:rgb(44 , 137 , 255);
+}
+QPushButton#selfChatBoxBt:focus{
+    border-bottom-color:rgb(44 , 137 , 255);
+}
+QPushButton#HelpOurBt:hover{
+    border-bottom-color:rgb(44 , 137 , 255);
+}
+QPushButton#HelpOurBt:focus{
+    border-bottom-color:rgb(44 , 137 , 255);
+}
+QPushButton#quitBlogBt:hover{
+    border-bottom-color:rgb(44 , 137 , 255);
+}
+QPushButton#quitBlogBt:focus{
+    border-bottom-color:rgb(44 , 137 , 255);
+}
+QPushButton#findBlogEditBt{
+    background-color: rgba(255, 255, 255, 0%);
+    border : none;
+}
+/*通用按钮样式设置*/
+QPushButton{
+    color:#ffffff;
+    background-color: rgb(22, 30, 25);
+}
+QPushButton:hover
+{
+    /*背景颜色*/
+    background-color:rgb(44 , 137 , 255);
+}
+QPushButton:pressed
+{
+    /*背景颜色*/
+    background-color:rgb(14 , 135 , 228);
+    /*左内边距为3像素，让按下时字向右移动3像素*/
+    padding-left:3px;
+    /*上内边距为3像素，让按下时字向下移动3像素*/
+    padding-top:3px;
+}
+/*设置背景透明度，0%全透明*/
+QLineEdit{
+    background-color: rgba(255, 255, 255, 30%);
+    border:1px solid;
+}
+/*标签的背景透明度*/
+QLabel{
+    background-color: rgba(255, 255, 255, 0%);
+}
+/*标签的文本颜色*/
+QLabel#UsernameLable{
+    color:#ffffff;
+}
+QGroupBox{
+    background-color: rgb(65, 65, 65);
+}
+/*QTabWidget*/
+QTabWidget::pane{
+    border-top: 2px solid #00C2C7CB;
+    position: absolute;
+    top: 10px;
+    /*border:none;*/
+}
+
+QTabWidget::tab-bar {
+     alignment: center;/*居中*/
+}
+
+QTabBar::tab {
+     background: #ececec;
+     /*border: 2px solid #C4C4C3;*/
+     border-bottom-color: #C2C7CB;
+     border-top-left-radius: 4px;
+     border-top-right-radius: 4px;
+     min-width: 60px;
+     padding: 2px;
+ }
+
+QTabBar::tab:selected{
+    background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #afafaf,stop:1 #afafaf);
+}
+
+QTabBar::tab:!selected{
+    margin-top:5px;
+}
+/*四个下属界面*/
+#recommendtab,#findtab,#hottab{
+    background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #ececec,stop:1 #ececec);
+    border-radius:6px;
+    background-color:rgb(59,59,59);
+}
